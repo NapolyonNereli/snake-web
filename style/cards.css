@@ -1,0 +1,99 @@
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 130px 220px 129px 220px;
+    background-color: lightblue;
+
+}
+
+
+.card-item {
+    border: solid 2px rgb(44, 44, 44);
+    border-radius: 10px;
+    height: 300px;
+    width: 250px;
+    text-align: center;
+    margin: 10px;
+    background-color: lightcoral;
+    box-shadow: 15px 15px 30px #bebebe,
+        -15px -15px 30px rgb(148, 146, 146);
+}
+
+.card-item span {
+    font-size: 30px;
+    background-color: red;
+    color: white;
+}
+
+.card-title {
+    background-color: red;
+    border-radius: 19px 19px 100% 100%;
+    padding-bottom: 30px;
+    border-bottom: solid 1px black;
+    box-shadow: 0 1px 10px;
+}
+
+
+
+.card-item p {
+    margin-top: 30px;
+    font-size: 20px;
+    height: 140px;
+}
+
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-button .btn {
+    margin-top: 30px;
+}
+
+.card-button {
+    text-align: center;
+    width: 100%;
+    background-color: white;
+    cursor: pointer;
+    height: 62px;
+    border-radius: 0 0 9px 9px;
+    transition: 1s ease;
+
+}
+.card-button:hover{
+    background-color: rgb(141, 214, 248);
+    color: white;
+}
+.btn {
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
+    transition: 0.7s ease;    
+}
+
+.locked-card {
+    opacity: 0.5;
+}
+.locked-card .card-button:hover {
+    background-color: white;
+    cursor: default;
+}
+
+
+/* Telefonda Görünen kısmı */
+@media only screen and (max-width:768px) {
+    .cards {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 20px 10px 20px;
+    }
+
+}
+
+@media only screen and (max-width: 1114px) {
+    .cards {
+        padding: 130px 20px 129px 20px;
+    }
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/navbar.css">
+    <link rel="stylesheet" href="style/cards.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Navbar Start-->
+    <header>
+        <nav class="navbar">
+            <a href="#" class="nav-branding"><img width="30px" height="30px" src="img/snake.png" alt=""></a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a class="nav-link" href="#">Anasayfa</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Hakkımda</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">İletişim</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    <!-- Navbar Start-->
+
+    <div>
+        <!-- MOBİLE TARAFINDAN BAKINCA SLİDER'A DÖNÜŞEBİLİR -->
+        <div class="container">
+            <div class="cards">
+                <div class="card-item">
+                    <div class="card-title">
+                        <span>Kolay Seviye</span>
+                    </div>
+                    <div class="card-prag">
+                        <p>Bu oyun duvarlara çarpınca yılan ölmüyor. Ve yeterince yavaş bir şekilde hareket ediyor.</p>
+                    </div>
+                    <div class="card-button" onclick="location.href='easy-snake/game.html'">
+                        <a class="btn">Oyna</a>
+                    </div>
+
+                </div>
+                <div class="card-item"> 
+                    <div class="card-title">
+                        <span>Orta</span>
+                    </div>
+                    <div class="card-prag">
+                        <p>Yılan biraz daha hızlı ve duvarlara çarpınca ölüyor.</p>
+                    </div>
+                    <div class="card-button"  onclick="location.href='middle-snake/game.html'">
+                        <a href="#" class="btn">Oyna</a>
+                    </div>
+
+                </div>
+                <div class="locked-card card-item">
+                    <div class="card-title">
+                        <span>Zor</span>
+                    </div>
+                    <div class="card-info">
+                        <div class="card-prag">
+                            <p>Yılan hızlı, duvarlara çarpınca ölüyor ve elmayı alması için süre var o süre içerisinde
+                                elmayı almak zorundasın.(Kapalı)</p>
+                        </div>
+                        <div class="card-button">
+                            <a class="btn" href="#">Oyna</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 
+        Buralara daha hakkımda ve işletişim bilgileri de gelicek....
+     -->
+
+
+    <script src="scripts/navbar.js"></script>
+</body>
+
+</html>
