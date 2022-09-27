@@ -110,8 +110,13 @@ class SnakeGame {
     }
 }
 
+<<<<<<< HEAD
 
 const game = new SnakeGame();
 
 
 window.onload = () => game.init();
+=======
+const deneme = new SnakeGame();
+window.onload = () => deneme.init();
+>>>>>>> 4faa89063ae5131bfacd56ff1442019e5fc0f54e
